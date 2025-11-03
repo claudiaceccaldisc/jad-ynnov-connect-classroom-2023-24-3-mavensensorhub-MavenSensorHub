@@ -1,4 +1,4 @@
-package com.jad.sensordata;
+package com.jad;
 
 import java.time.LocalDateTime;
 

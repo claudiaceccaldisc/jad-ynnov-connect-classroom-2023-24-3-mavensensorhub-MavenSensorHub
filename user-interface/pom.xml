@@ -12,18 +12,20 @@
     <artifactId>user-interface</artifactId>
 
     <dependencies>
+
+
         <dependency>
             <groupId>com.jad</groupId>
-            <artifactId>data-management</artifactId>
+            <artifactId>core-interfaces</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>com.jad</groupId>
-            <artifactId>sensor-data-collection</artifactId>
+            <artifactId>utils</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
 </project>

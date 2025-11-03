@@ -1,4 +1,4 @@
-package com.jad.sensordata;
+package com.jad;
 
 public enum SensorType {
     HUMIDITY("HumiditySensor", 20, 80, "%"),

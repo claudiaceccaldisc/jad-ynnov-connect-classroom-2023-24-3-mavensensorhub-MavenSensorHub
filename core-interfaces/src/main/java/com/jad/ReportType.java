@@ -1,4 +1,4 @@
-package com.jad.reportgeneration;
+package com.jad;
 
 public enum ReportType {
     TEXT("Text"),

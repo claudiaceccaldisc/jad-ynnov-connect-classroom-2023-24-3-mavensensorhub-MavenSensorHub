@@ -1,4 +1,4 @@
-package com.jad.utils;
+package com.jad;
 
 public interface ILogger {
     void logInfo(String message);

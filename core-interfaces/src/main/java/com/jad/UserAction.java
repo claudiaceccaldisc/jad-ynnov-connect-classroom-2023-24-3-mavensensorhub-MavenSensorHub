@@ -1,4 +1,4 @@
-package com.jad.userinterface;
+package com.jad;
 
 public enum UserAction {
     ADD_HUMIDITY_SENSOR("addHumiditySensor", "Add a humidity sensor"),

@@ -1,13 +1,10 @@
-package com.jad.datamanagement;
-
-import com.jad.sensordata.SensorData;
-import com.jad.sensordata.SensorType;
+package com.jad;
 
 import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.Optional;
 
-interface IDataProcessor {
+public interface IDataProcessor {
     Map<SensorType, Double> calculateAverage();
 
     Map<SensorType, Double> calculateMax();

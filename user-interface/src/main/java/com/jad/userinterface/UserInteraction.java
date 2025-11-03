@@ -1,5 +1,12 @@
 package com.jad.userinterface;
 
+import com.jad.IDataManager;
+import com.jad.SensorData;
+import com.jad.SensorType;
+import com.jad.UserAction;
+import com.jad.IUserInterface;
+import com.jad.IApplication;
+
 import java.text.MessageFormat;
 import java.util.Scanner;
 

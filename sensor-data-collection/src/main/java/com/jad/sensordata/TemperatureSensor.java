@@ -1,6 +1,7 @@
 package com.jad.sensordata;
+import com.jad.SensorType;
 
-class TemperatureSensor extends AbstractSensor {
+public class TemperatureSensor extends AbstractSensor {
     public TemperatureSensor() {
         super(SensorType.TEMPERATURE);
     }

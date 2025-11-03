@@ -1,6 +1,7 @@
 package com.jad.sensordata;
+import com.jad.SensorType;
 
-class PressureSensor extends AbstractSensor {
+public class PressureSensor extends AbstractSensor {
     public PressureSensor() {
         super(SensorType.PRESSURE);
     }

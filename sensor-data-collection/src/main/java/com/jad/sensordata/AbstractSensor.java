@@ -1,10 +1,13 @@
 package com.jad.sensordata;
 
+import java.util.Random;
+import com.jad.ISensor;
+import com.jad.SensorData;
+import com.jad.SensorType;
 import com.jad.utils.Utils;
 
-import java.util.Random;
 
-abstract class AbstractSensor implements ISensor {
+public abstract class AbstractSensor implements ISensor {
     static final int START_VALUE = 99999;
     private static final double MAX_PERCENTAGE_DIFFERENCE = 0.01;
     private final Random random = new Random();

@@ -1,7 +1,6 @@
-package com.jad.datamanagement;
+package com.jad;
 
-import com.jad.sensordata.ISensor;
-import com.jad.sensordata.SensorData;
+
 
 import java.util.List;
 

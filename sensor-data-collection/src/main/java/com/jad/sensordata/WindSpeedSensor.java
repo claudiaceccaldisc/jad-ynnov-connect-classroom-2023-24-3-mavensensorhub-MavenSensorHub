@@ -1,6 +1,7 @@
 package com.jad.sensordata;
+import com.jad.SensorType;
 
-class WindSpeedSensor extends AbstractSensor {
+public class WindSpeedSensor extends AbstractSensor {
     public WindSpeedSensor() {
         super(SensorType.WIND_SPEED);
     }

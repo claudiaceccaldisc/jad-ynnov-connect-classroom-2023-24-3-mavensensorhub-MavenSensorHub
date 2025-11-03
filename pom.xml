@@ -18,6 +18,7 @@
         <module>data-management</module>
         <module>user-interface</module>
         <module>test</module>
+        <module>core-interfaces</module>
     </modules>
 
     <properties>

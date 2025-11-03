@@ -1,6 +1,12 @@
 package com.jad.datamanagement;
 
-import com.jad.sensordata.SensorData;
+import com.jad.ISensor;
+import com.jad.IDataManager;
+import com.jad.IDataProcessor;
+import com.jad.IDataStorage;
+import com.jad.SensorData;
+import com.jad.SensorType;
+
 
 import java.time.Duration;
 import java.util.Optional;
